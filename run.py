@@ -6,12 +6,13 @@ import os
 def tokenize(string):
     return ' '.join(word_tokenize(string))
 
-def normalize(string):
-    string = string.replace('`', '')
-    string = string.replace("'", '')
-    string = string.replace('"', '')
-    string = string.replace(';', '')
-    string = string.replace(' - ', ' -- ')
+def normalize(string, remove=False):
+    if remove:
+        string = string.replace('`', '')
+        string = string.replace("'", '')
+        string = string.replace('"', '')
+        string = string.replace(';', '')
+        string = string.replace(' - ', ' -- ')
     return string
 
 assert len(sys.argv) == 3
