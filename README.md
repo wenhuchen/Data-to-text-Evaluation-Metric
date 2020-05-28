@@ -1,4 +1,4 @@
-E2E NLG Challenge Evaluation metrics
+Data-to-Text Evaluation metrics
 ====================================
 
 The metrics used for the challenge include:
