@@ -1,4 +1,4 @@
-#! /home/hustchenwenhu/anaconda3/envs/pytorch1.4/bin/python
+#!/home/hustchenwenhu/anaconda3/bin/python
 import codecs
 from argparse import ArgumentParser
 from tempfile import mkdtemp
